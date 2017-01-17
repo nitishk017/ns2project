@@ -1,0 +1,11 @@
+n -t 0 -s 0 -S DLABEL -l "Sink" -L ""
+n -t * -s 0  -x 60 -y 60 -Z 0 -z 3  -v circle -c green
+n -t * -s 1  -x 64.738415342168153 -y 18.546655820005878 -Z 0 -z 3  -v circle -c green
+n -t * -s 2  -x 73.644366838803677 -y 60.873459773544909 -Z 0 -z 3  -v circle -c green
+n -t * -s 3  -x 100.23841396916585 -y 27.02357977024446 -Z 0 -z 3  -v circle -c green
+n -t * -s 4  -x 105.30519849867801 -y 104.47116728148943 -Z 0 -z 3  -v circle -c green
+n -t * -s 5  -x 6.9084999928756146 -y 71.159380260463521 -Z 0 -z 3  -v circle -c green
+n -t * -s 6  -x 55.704037610303622 -y 97.760116373077096 -Z 0 -z 3  -v circle -c green
+n -t * -s 7  -x 14.275882306637188 -y 54.753927651212514 -Z 0 -z 3  -v circle -c green
+n -t * -s 8  -x 89.262033928773377 -y 107.00424089422647 -Z 0 -z 3  -v circle -c green
+n -t * -s 9  -x 100.27670926427315 -y 70.652604638902758 -Z 0 -z 3  -v circle -c green

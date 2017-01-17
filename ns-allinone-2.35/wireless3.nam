@@ -1,0 +1,520 @@
+n -t * -s 0  -x 254.5586967629188 -y 294.41319550127406 -Z 0 -z 30  -v circle -c black
+n -t * -s 1  -x 253.22098739129538 -y 308.10806840104425 -Z 0 -z 30  -v circle -c black
+n -t * -s 2  -x 465.38202043873349 -y 140.49401103541908 -Z 0 -z 30  -v circle -c black
+n -t * -s 3  -x 103.55434036047866 -y 350.23875085182425 -Z 0 -z 30  -v circle -c black
+n -t * -s 4  -x 78.356958263719903 -y 356.31803067229595 -Z 0 -z 30  -v circle -c black
+n -t * -s 5  -x 296.42688659784704 -y 37.346440012262406 -Z 0 -z 30  -v circle -c black
+n -t * -s 6  -x 102.02160761785768 -y 141.72738666726622 -Z 0 -z 30  -v circle -c black
+n -t * -s 7  -x 15.23464592883114 -y 38.955300691982401 -Z 0 -z 30  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 500 -y 400
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t 0 -s 0 -S COLOR -c blue -o blue -i blue -I blue
+n -t 0 -s 1 -S COLOR -c blue -o blue -i blue -I blue
+n -t 0 -s 2 -S COLOR -c blue -o blue -i blue -I blue
+n -t 0.000000 -s 0 -x 254.558697 -y 294.413196 -U 9.778785 -V -2.091736 -T 15.095404
+n -t 0.000000 -s 1 -x 253.220987 -y 308.108068 -U 9.297878 -V 3.680959 -T 14.654608
+n -t 0.000000 -s 2 -x 465.382020 -y 140.494011 -U -8.333926 -V 5.526815 -T 26.964088
+n -t 0.000000 -s 3 -x 103.554340 -y 350.238751 -U 8.239763 -V -5.666242 -T 41.240416
+n -t 0.000000 -s 4 -x 78.356958 -y 356.318031 -U 6.612420 -V -7.501727 -T 32.250862
+n -t 0.000000 -s 5 -x 296.426887 -y 37.346440 -U 5.818524 -V 8.132944 -T 34.863348
+n -t 0.000000 -s 6 -x 102.021608 -y 141.727387 -U 9.504166 -V -3.109796 -T 37.407568
+n -t 0.000000 -s 7 -x 15.234646 -y 38.955301 -U 1.721317 -V 9.850739 -T 31.399283
++ -t 0.000169789 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000169789 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000169789 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001357834 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001358325 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001358411 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR
+r -t 0.001358508 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 0.044061336 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR 
+- -t 0.044061336 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR
+h -t 0.044061336 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR
+r -t 0.045189382 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR
+r -t 0.045189854 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR
+r -t 0.045189940 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR
+r -t 0.045190086 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 1 -k RTR
++ -t 0.056904124 -s 5 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 2 -k RTR 
+- -t 0.056904124 -s 5 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 2 -k RTR
+h -t 0.056904124 -s 5 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 2 -k RTR
+r -t 0.058252782 -s 2 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 2 -k RTR
+r -t 0.058252858 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 2 -k RTR
++ -t 0.082072703 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR 
+- -t 0.082072703 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR
+h -t 0.082072703 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR
+r -t 0.083380790 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR
+r -t 0.083381308 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR
+r -t 0.083381326 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR
+r -t 0.083381422 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 3 -k RTR
++ -t 0.087402627 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR 
+- -t 0.087402627 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+h -t 0.087402627 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+r -t 0.088651074 -s 7 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+r -t 0.088651321 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+r -t 0.088651345 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+r -t 0.088651347 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+r -t 0.088651360 -s 5 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
+r -t 0.088651378 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 4 -k RTR
++ -t 0.156480886 -s 2 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 5 -k RTR 
+- -t 0.156480886 -s 2 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 5 -k RTR
+h -t 0.156480886 -s 2 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 5 -k RTR
+r -t 0.157569539 -s 5 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 5 -k RTR
++ -t 0.174370513 -s 7 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 6 -k RTR 
+- -t 0.174370513 -s 7 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 6 -k RTR
+h -t 0.174370513 -s 7 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 6 -k RTR
+r -t 0.175598958 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 6 -k RTR
++ -t 0.319432572 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR 
+- -t 0.319432572 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR
+h -t 0.319432572 -s 3 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR
+r -t 0.320480659 -s 4 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR
+r -t 0.320481088 -s 1 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR
+r -t 0.320481109 -s 0 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR
+r -t 0.320481264 -s 6 -d -1 -p OLSR -e 48 -c 2 -a 0 -i 7 -k RTR
+n -t 1 -s 3 -S COLOR -c cyan -o cyan -i cyan -I cyan
+n -t 1 -s 4 -S COLOR -c cyan -o cyan -i cyan -I cyan
+n -t 1 -s 5 -S COLOR -c cyan -o red -i cyan -I red
+n -t 1.000000 -s 0 -x 264.337482 -y 292.321460 -U -7.201242 -V -6.938452 -T 31.443339
+n -t 1.000000 -s 1 -x 262.518866 -y 311.789027 -U 3.367207 -V -9.416046 -T 31.777295
+n -t 1.000000 -s 2 -x 457.048095 -y 146.020826 -U -8.232588 -V 5.676662 -T 39.263122
+n -t 1.000000 -s 3 -x 111.794104 -y 344.572508 -U 9.857765 -V 1.680616 -T 10.804175
+n -t 1.000000 -s 4 -x 84.969378 -y 348.816304 -U -9.999786 -V 0.065380 -T 7.735893
+n -t 1.000000 -s 5 -x 302.245411 -y 45.479384 -U 4.103853 -V 9.119122 -T 4.367883
+n -t 1.000000 -s 6 -x 111.525773 -y 138.617591 -U 8.856194 -V -4.644117 -T 17.895373
+n -t 1.000000 -s 7 -x 16.955963 -y 48.806040 -U 6.611710 -V 7.502352 -T 25.060670
++ -t 1.647777632 -s 2 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 8 -k RTR 
+- -t 1.647777632 -s 2 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 8 -k RTR
+h -t 1.647777632 -s 2 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 8 -k RTR
+r -t 1.648910221 -s 5 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 8 -k RTR
+r -t 1.648910421 -s 0 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 8 -k RTR
+r -t 1.648910444 -s 1 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 8 -k RTR
++ -t 1.889891021 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR 
+- -t 1.889891021 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+h -t 1.889891021 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+r -t 1.891191084 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+r -t 1.891191521 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+r -t 1.891191662 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+r -t 1.891191706 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+r -t 1.891191803 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
+r -t 1.891191813 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 9 -k RTR
++ -t 1.966709309 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR 
+- -t 1.966709309 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+h -t 1.966709309 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+r -t 1.967913723 -s 7 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+r -t 1.967913984 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+r -t 1.967913990 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+r -t 1.967914016 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+r -t 1.967914040 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+r -t 1.967914052 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 10 -k RTR
+n -t 2 -s 5 -S COLOR -c red -o cyan -i red -I cyan
+n -t 2 -s 6 -S COLOR -c red -o red -i red -I red
+n -t 2 -s 7 -S COLOR -c red -o red -i red -I red
+n -t 2.000000 -s 0 -x 257.136240 -y 285.383008 -U 1.458469 -V -9.893072 -T 24.267958
+n -t 2.000000 -s 1 -x 265.886072 -y 302.372982 -U -5.502047 -V -8.350298 -T 18.898147
+n -t 2.000000 -s 2 -x 448.815506 -y 151.697488 -U -9.908400 -V 1.350408 -T 26.202460
+n -t 2.000000 -s 3 -x 121.651869 -y 346.253124 -U 9.873799 -V 1.583693 -T 22.952091
+n -t 2.000000 -s 4 -x 74.969592 -y 348.881684 -U 9.358121 -V -3.524991 -T 44.774528
+n -t 2.000000 -s 5 -x 306.349264 -y 54.598506 -U -1.831737 -V 9.830806 -T 24.879427
+n -t 2.000000 -s 6 -x 120.381968 -y 133.973473 -U 9.791780 -V -2.030035 -T 35.448757
+n -t 2.000000 -s 7 -x 23.567673 -y 56.308392 -U 5.984343 -V 8.011719 -T 42.627206
++ -t 2.043268628 -s 5 -d -1 -p OLSR -e 60 -c 2 -a 0 -i 11 -k RTR 
+- -t 2.043268628 -s 5 -d -1 -p OLSR -e 60 -c 2 -a 0 -i 11 -k RTR
+h -t 2.043268628 -s 5 -d -1 -p OLSR -e 60 -c 2 -a 0 -i 11 -k RTR
+r -t 2.044333201 -s 2 -d -1 -p OLSR -e 60 -c 2 -a 0 -i 11 -k RTR
+r -t 2.044333300 -s 6 -d -1 -p OLSR -e 60 -c 2 -a 0 -i 11 -k RTR
+r -t 2.044333412 -s 0 -d -1 -p OLSR -e 60 -c 2 -a 0 -i 11 -k RTR
++ -t 2.113725256 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR 
+- -t 2.113725256 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+h -t 2.113725256 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+r -t 2.115105319 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+r -t 2.115105754 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+r -t 2.115105905 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+r -t 2.115105992 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+r -t 2.115106042 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
+r -t 2.115106086 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 12 -k RTR
++ -t 2.194797084 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR 
+- -t 2.194797084 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR
+h -t 2.194797084 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR
+r -t 2.196205240 -s 4 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR
+r -t 2.196205578 -s 0 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR
+r -t 2.196205579 -s 1 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR
+r -t 2.196205794 -s 6 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 13 -k RTR
++ -t 2.309283862 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 14 -k RTR 
+- -t 2.309283862 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 14 -k RTR
+h -t 2.309283862 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 14 -k RTR
+r -t 2.310756273 -s 6 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 14 -k RTR
++ -t 2.452010816 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR 
+- -t 2.452010816 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR
+h -t 2.452010816 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR
+r -t 2.453350972 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR
+r -t 2.453351451 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR
+r -t 2.453351451 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR
+r -t 2.453351546 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 15 -k RTR
+n -t 3.000000 -s 0 -x 258.594709 -y 275.489936 -U 6.711361 -V 7.413342 -T 8.885147
+n -t 3.000000 -s 1 -x 260.384025 -y 294.022684 -U -9.346552 -V -3.555554 -T 26.055686
+n -t 3.000000 -s 2 -x 438.907106 -y 153.047895 -U -8.291686 -V -5.589986 -T 23.010324
+n -t 3.000000 -s 3 -x 131.525668 -y 347.836818 -U -3.463397 -V -9.381092 -T 25.157694
+n -t 3.000000 -s 4 -x 84.327713 -y 345.356693 -U 9.859410 -V -1.670937 -T 33.263910
+n -t 3.000000 -s 5 -x 304.517527 -y 64.429312 -U 0.058446 -V 9.999829 -T 32.021191
+n -t 3.000000 -s 6 -x 130.173748 -y 131.943438 -U 4.563613 -V 8.897946 -T 18.905254
+n -t 3.000000 -s 7 -x 29.552016 -y 64.320111 -U -0.846560 -V 9.964102 -T 17.070951
++ -t 3.335072266 -s 5 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR 
+- -t 3.335072266 -s 5 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR
+h -t 3.335072266 -s 5 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR
+r -t 3.336444785 -s 2 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR
+r -t 3.336444884 -s 6 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR
+r -t 3.336444982 -s 0 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR
+r -t 3.336445033 -s 1 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 16 -k RTR
++ -t 3.815038168 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 17 -k RTR 
+- -t 3.815038168 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 17 -k RTR
+h -t 3.815038168 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 17 -k RTR
+r -t 3.816630582 -s 6 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 17 -k RTR
++ -t 3.866105728 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR 
+- -t 3.866105728 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR
+h -t 3.866105728 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR
+r -t 3.867393847 -s 4 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR
+r -t 3.867394171 -s 1 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR
+r -t 3.867394220 -s 0 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR
+r -t 3.867394395 -s 6 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 18 -k RTR
++ -t 3.926581546 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 19 -k RTR 
+- -t 3.926581546 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 19 -k RTR
+h -t 3.926581546 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 19 -k RTR
+r -t 3.928130036 -s 5 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 19 -k RTR
+r -t 3.928130260 -s 0 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 19 -k RTR
+r -t 3.928130311 -s 1 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 19 -k RTR
++ -t 3.930120733 -s 1 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR 
+- -t 3.930120733 -s 1 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+h -t 3.930120733 -s 1 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+r -t 3.931476785 -s 0 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+r -t 3.931477175 -s 3 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+r -t 3.931477289 -s 4 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+r -t 3.931477369 -s 6 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+r -t 3.931477477 -s 5 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
+r -t 3.931477498 -s 2 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 20 -k RTR
++ -t 3.993260784 -s 4 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR 
+- -t 3.993260784 -s 4 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR
+h -t 3.993260784 -s 4 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR
+r -t 3.994588898 -s 3 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR
+r -t 3.994589336 -s 1 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR
+r -t 3.994589389 -s 0 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR
+r -t 3.994589474 -s 6 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 21 -k RTR
+n -t 4.000000 -s 0 -x 265.306069 -y 282.903278 -U 6.015386 -V 7.988438 -T 6.487789
+n -t 4.000000 -s 1 -x 251.037473 -y 290.467130 -U 1.607273 -V -9.869989 -T 12.439098
+n -t 4.000000 -s 2 -x 430.615420 -y 147.457910 -U -9.045720 -V 4.263210 -T 44.480492
+n -t 4.000000 -s 3 -x 128.062271 -y 338.455726 -U 4.955703 -V -8.685678 -T 32.359381
+n -t 4.000000 -s 4 -x 94.187123 -y 343.685756 -U 7.921957 -V -6.102671 -T 19.158010
+n -t 4.000000 -s 5 -x 304.575974 -y 74.429141 -U -9.644531 -V 2.642540 -T 14.024863
+n -t 4.000000 -s 6 -x 134.737360 -y 140.841384 -U 9.408006 -V -3.389604 -T 14.802537
+n -t 4.000000 -s 7 -x 28.705456 -y 74.284214 -U 6.777313 -V 7.353097 -T 38.983785
++ -t 4.052395418 -s 0 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR 
+- -t 4.052395418 -s 0 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+h -t 4.052395418 -s 0 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+r -t 4.053771471 -s 1 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+r -t 4.053771910 -s 3 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+r -t 4.053772022 -s 4 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+r -t 4.053772062 -s 6 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+r -t 4.053772125 -s 5 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
+r -t 4.053772128 -s 2 -d -1 -p OLSR -e 84 -c 2 -a 0 -i 22 -k RTR
++ -t 4.062333582 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR 
+- -t 4.062333582 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+h -t 4.062333582 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+r -t 4.063857999 -s 7 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+r -t 4.063858186 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+r -t 4.063858212 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+r -t 4.063858226 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+r -t 4.063858240 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
+r -t 4.063858271 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 23 -k RTR
++ -t 4.974103457 -s 6 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR 
+- -t 4.974103457 -s 6 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+h -t 4.974103457 -s 6 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+r -t 4.975715864 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+r -t 4.975716000 -s 5 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+r -t 4.975716056 -s 1 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+r -t 4.975716099 -s 3 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+r -t 4.975716120 -s 0 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+r -t 4.975716138 -s 4 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 24 -k RTR
+n -t 5.000000 -s 0 -x 271.321455 -y 290.891716 -U 2.085236 -V -9.780173 -T 18.077179
+n -t 5.000000 -s 1 -x 252.644746 -y 280.597141 -U 6.126279 -V -7.903715 -T 35.063624
+n -t 5.000000 -s 2 -x 421.569700 -y 151.721119 -U -7.360735 -V 6.769016 -T 19.246086
+n -t 5.000000 -s 3 -x 133.017974 -y 329.770048 -U 9.975309 -V -0.702295 -T 29.690452
+n -t 5.000000 -s 4 -x 102.109081 -y 337.583085 -U 9.796062 -V -2.009270 -T 39.948237
+n -t 5.000000 -s 5 -x 294.931442 -y 77.071681 -U 9.590894 -V -2.831032 -T 10.268035
+n -t 5.000000 -s 6 -x 144.145367 -y 137.451780 -U 8.688146 -V 4.951375 -T 37.900232
+n -t 5.000000 -s 7 -x 35.482769 -y 81.637310 -U 9.192778 -V -3.936094 -T 13.081808
++ -t 5.013802358 -s 5 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR 
+- -t 5.013802358 -s 5 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR
+h -t 5.013802358 -s 5 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR
+r -t 5.015130848 -s 2 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR
+r -t 5.015130900 -s 6 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR
+r -t 5.015131051 -s 1 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR
+r -t 5.015131075 -s 0 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 25 -k RTR
++ -t 5.226597094 -s 6 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR 
+- -t 5.226597094 -s 6 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+h -t 5.226597094 -s 6 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+r -t 5.227853504 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+r -t 5.227853638 -s 5 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+r -t 5.227853684 -s 1 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+r -t 5.227853732 -s 3 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+r -t 5.227853747 -s 0 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
+r -t 5.227853770 -s 4 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 26 -k RTR
++ -t 5.275369782 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR 
+- -t 5.275369782 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+h -t 5.275369782 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+r -t 5.276813849 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+r -t 5.276814213 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+r -t 5.276814318 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+r -t 5.276814370 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+r -t 5.276814471 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
+r -t 5.276814473 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 27 -k RTR
++ -t 5.284101710 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR 
+- -t 5.284101710 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR
+h -t 5.284101710 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR
+r -t 5.285342191 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR
+r -t 5.285342255 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR
+r -t 5.285342399 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR
+r -t 5.285342421 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 28 -k RTR
++ -t 5.367624556 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 29 -k RTR 
+- -t 5.367624556 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 29 -k RTR
+h -t 5.367624556 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 29 -k RTR
+r -t 5.369313034 -s 5 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 29 -k RTR
+r -t 5.369313216 -s 0 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 29 -k RTR
+r -t 5.369313240 -s 1 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 29 -k RTR
++ -t 5.442160286 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR 
+- -t 5.442160286 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+h -t 5.442160286 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+r -t 5.443504350 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+r -t 5.443504757 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+r -t 5.443504863 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+r -t 5.443504927 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+r -t 5.443504942 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
+r -t 5.443504994 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 30 -k RTR
++ -t 5.516574165 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR 
+- -t 5.516574165 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR
+h -t 5.516574165 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR
+r -t 5.518234271 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR
+r -t 5.518234595 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR
+r -t 5.518234635 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR
+r -t 5.518234797 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 31 -k RTR
++ -t 5.766842063 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 32 -k RTR 
+- -t 5.766842063 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 32 -k RTR
+h -t 5.766842063 -s 7 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 32 -k RTR
+r -t 5.768094480 -s 6 -d -1 -p OLSR -e 56 -c 2 -a 0 -i 32 -k RTR
++ -t 5.811244549 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR 
+- -t 5.811244549 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR
+h -t 5.811244549 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR
+r -t 5.812504655 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR
+r -t 5.812505082 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR
+r -t 5.812505120 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR
+r -t 5.812505211 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 33 -k RTR
+n -t 6.000000 -s 0 -x 273.406691 -y 281.111542 -U 2.621216 -V -9.650349 -T 22.141485
+n -t 6.000000 -s 1 -x 258.771026 -y 272.693427 -U 1.819342 -V -9.833107 -T 21.859331
+n -t 6.000000 -s 2 -x 414.208965 -y 158.490135 -U -7.868707 -V 6.171179 -T 24.784398
+n -t 6.000000 -s 3 -x 142.993283 -y 329.067753 -U 9.518474 -V -3.065722 -T 31.829585
+n -t 6.000000 -s 4 -x 111.905143 -y 335.573814 -U 4.185998 -V -9.081708 -T 34.066875
+n -t 6.000000 -s 5 -x 304.522337 -y 74.240649 -U -6.352510 -V 7.723058 -T 18.740249
+n -t 6.000000 -s 6 -x 152.833513 -y 142.403155 -U 8.992811 -V 4.373711 -T 21.043896
+n -t 6.000000 -s 7 -x 44.675546 -y 77.701216 -U 9.856822 -V -1.686139 -T 31.580073
++ -t 6.081329913 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR 
+- -t 6.081329913 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+h -t 6.081329913 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+r -t 6.082694334 -s 7 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+r -t 6.082694463 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+r -t 6.082694468 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+r -t 6.082694521 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+r -t 6.082694534 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
+r -t 6.082694568 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 34 -k RTR
++ -t 6.935852002 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR 
+- -t 6.935852002 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR
+h -t 6.935852002 -s 2 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR
+r -t 6.937040457 -s 5 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR
+r -t 6.937040568 -s 0 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR
+r -t 6.937040592 -s 1 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR
+r -t 6.937040823 -s 6 -d -1 -p OLSR -e 68 -c 2 -a 0 -i 35 -k RTR
+n -t 7.000000 -s 0 -x 276.027907 -y 271.461194 -U -2.011990 -V -9.795504 -T 26.280341
+n -t 7.000000 -s 1 -x 260.590367 -y 262.860319 -U 3.473073 -V -9.377514 -T 9.927200
+n -t 7.000000 -s 2 -x 406.340258 -y 164.661314 -U -9.903702 -V -1.384446 -T 29.862789
+n -t 7.000000 -s 3 -x 152.511757 -y 326.002031 -U 6.960334 -V -7.180094 -T 14.707438
+n -t 7.000000 -s 4 -x 116.091140 -y 326.492106 -U 9.998955 -V -0.144545 -T 23.842320
+n -t 7.000000 -s 5 -x 298.169827 -y 81.963706 -U -0.477360 -V 9.988600 -T 19.194596
+n -t 7.000000 -s 6 -x 161.826324 -y 146.776866 -U 9.085155 -V -4.178512 -T 26.502187
+n -t 7.000000 -s 7 -x 54.532368 -y 76.015077 -U 3.544995 -V 9.350562 -T 11.550791
++ -t 7.016565528 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR 
+- -t 7.016565528 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+h -t 7.016565528 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+r -t 7.018069587 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+r -t 7.018069978 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+r -t 7.018070089 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+r -t 7.018070091 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+r -t 7.018070092 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
+r -t 7.018070163 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 36 -k RTR
++ -t 7.019495909 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR 
+- -t 7.019495909 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR
+h -t 7.019495909 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR
+r -t 7.020956030 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR
+r -t 7.020956326 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR
+r -t 7.020956358 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR
+r -t 7.020956507 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 37 -k RTR
++ -t 7.077429107 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR 
+- -t 7.077429107 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
+h -t 7.077429107 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
+r -t 7.078609557 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
+r -t 7.078609606 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
+r -t 7.078609718 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
+r -t 7.078609738 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
+r -t 7.078609918 -s 7 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 38 -k RTR
++ -t 7.116472345 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR 
+- -t 7.116472345 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR
+h -t 7.116472345 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR
+r -t 7.118172466 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR
+r -t 7.118172871 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR
+r -t 7.118172906 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR
+r -t 7.118172965 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 39 -k RTR
++ -t 7.169360861 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 40 -k RTR 
+- -t 7.169360861 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 40 -k RTR
+h -t 7.169360861 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 40 -k RTR
+r -t 7.170557288 -s 6 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 40 -k RTR
+r -t 7.170557672 -s 5 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 40 -k RTR
++ -t 7.182456170 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR 
+- -t 7.182456170 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+h -t 7.182456170 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+r -t 7.183680226 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+r -t 7.183680586 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+r -t 7.183680674 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+r -t 7.183680695 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+r -t 7.183680747 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
+r -t 7.183680774 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 41 -k RTR
++ -t 7.329183659 -s 6 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR 
+- -t 7.329183659 -s 6 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+h -t 7.329183659 -s 6 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532085 -s 7 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532147 -s 5 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532159 -s 1 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532210 -s 0 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532254 -s 3 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532282 -s 4 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+r -t 7.330532456 -s 2 -d -1 -p OLSR -e 88 -c 2 -a 0 -i 42 -k RTR
+n -t 8.000000 -s 0 -x 274.015916 -y 261.665690 -U -9.183166 -V -3.958467 -T 23.189964
+n -t 8.000000 -s 1 -x 264.063440 -y 253.482806 -U -9.835141 -V -1.808317 -T 2.944987
+n -t 8.000000 -s 2 -x 396.436556 -y 163.276868 -U 4.971874 -V 8.676432 -T 15.885960
+n -t 8.000000 -s 3 -x 159.472091 -y 318.821937 -U 7.524501 -V -6.586493 -T 38.784325
+n -t 8.000000 -s 4 -x 126.090095 -y 326.347561 -U 9.997910 -V -0.204453 -T 18.277201
+n -t 8.000000 -s 5 -x 297.692467 -y 91.952306 -U -9.751540 -V -2.215282 -T 15.340665
+n -t 8.000000 -s 6 -x 170.911478 -y 142.598354 -U 9.968311 -V -0.795469 -T 17.331364
+n -t 8.000000 -s 7 -x 58.077363 -y 85.365639 -U 8.115926 -V -5.842238 -T 14.353614
++ -t 8.301268051 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR 
+- -t 8.301268051 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR
+h -t 8.301268051 -s 2 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR
+r -t 8.302568476 -s 5 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR
+r -t 8.302568578 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR
+r -t 8.302568592 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR
+r -t 8.302568802 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 43 -k RTR
++ -t 8.577699598 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR 
+- -t 8.577699598 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+h -t 8.577699598 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+r -t 8.579003640 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+r -t 8.579003994 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+r -t 8.579004095 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+r -t 8.579004106 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+r -t 8.579004129 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
+r -t 8.579004166 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 44 -k RTR
++ -t 8.757428263 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR 
+- -t 8.757428263 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+h -t 8.757428263 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+r -t 8.758672304 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+r -t 8.758672631 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+r -t 8.758672713 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+r -t 8.758672741 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+r -t 8.758672814 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
+r -t 8.758672814 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 45 -k RTR
++ -t 8.807837862 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR 
+- -t 8.807837862 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR
+h -t 8.807837862 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR
+r -t 8.809337975 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR
+r -t 8.809338227 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR
+r -t 8.809338245 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR
+r -t 8.809338435 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 46 -k RTR
+n -t 9.000000 -s 0 -x 264.832750 -y 257.707223 -U -9.802183 -V 1.979194 -T 7.637262
+n -t 9.000000 -s 1 -x 254.228300 -y 251.674489 -U -4.387075 -V -8.986299 -T 19.871867
+n -t 9.000000 -s 2 -x 401.408430 -y 171.953300 -U -9.626509 -V 2.707458 -T 16.924118
+n -t 9.000000 -s 3 -x 166.996591 -y 312.235444 -U 0.280361 -V -9.996069 -T 20.568943
+n -t 9.000000 -s 4 -x 136.088005 -y 326.143108 -U -2.057868 -V -9.785969 -T 18.910651
+n -t 9.000000 -s 5 -x 287.940927 -y 89.737024 -U -8.067233 -V 5.909294 -T 35.689880
+n -t 9.000000 -s 6 -x 180.879790 -y 141.802884 -U -5.907332 -V 8.068670 -T 22.160008
+n -t 9.000000 -s 7 -x 66.193289 -y 79.523401 -U -2.655539 -V 9.640960 -T 23.651965
++ -t 9.000252827 -s 5 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR 
+- -t 9.000252827 -s 5 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
+h -t 9.000252827 -s 5 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
+r -t 9.001765224 -s 6 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
+r -t 9.001765294 -s 2 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
+r -t 9.001765379 -s 1 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
+r -t 9.001765392 -s 0 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
+r -t 9.001765567 -s 7 -d -1 -p OLSR -e 76 -c 2 -a 0 -i 47 -k RTR
++ -t 9.143658312 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 48 -k RTR 
+- -t 9.143658312 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 48 -k RTR
+h -t 9.143658312 -s 7 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 48 -k RTR
+r -t 9.144734745 -s 6 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 48 -k RTR
+r -t 9.144735049 -s 5 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 48 -k RTR
++ -t 9.233606819 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR 
+- -t 9.233606819 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR
+h -t 9.233606819 -s 4 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR
+r -t 9.235146933 -s 3 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR
+r -t 9.235147282 -s 1 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR
+r -t 9.235147295 -s 0 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR
+r -t 9.235147437 -s 6 -d -1 -p OLSR -e 72 -c 2 -a 0 -i 49 -k RTR
++ -t 9.277017933 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR 
+- -t 9.277017933 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+h -t 9.277017933 -s 6 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242329 -s 5 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242361 -s 1 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242365 -s 7 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242404 -s 0 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242486 -s 3 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242549 -s 4 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
+r -t 9.278242671 -s 2 -d -1 -p OLSR -e 80 -c 2 -a 0 -i 50 -k RTR
++ -t 9.421923278 -s 1 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR 
+- -t 9.421923278 -s 1 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+h -t 9.421923278 -s 1 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423483323 -s 0 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423483625 -s 3 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423483699 -s 6 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423483740 -s 4 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423483807 -s 5 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423483821 -s 2 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
+r -t 9.423484108 -s 7 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 51 -k RTR
++ -t 9.488686845 -s 5 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR 
+- -t 9.488686845 -s 5 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+h -t 9.488686845 -s 5 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+r -t 9.489887240 -s 6 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+r -t 9.489887306 -s 2 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+r -t 9.489887371 -s 1 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+r -t 9.489887404 -s 0 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+r -t 9.489887575 -s 7 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
+r -t 9.489887659 -s 3 -d -1 -p OLSR -e 52 -c 2 -a 0 -i 52 -k RTR
++ -t 9.695884877 -s 0 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR 
+- -t 9.695884877 -s 0 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+h -t 9.695884877 -s 0 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+r -t 9.697080928 -s 1 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+r -t 9.697081216 -s 3 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+r -t 9.697081334 -s 4 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+r -t 9.697081337 -s 6 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+r -t 9.697081414 -s 2 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
+r -t 9.697081433 -s 5 -d -1 -p OLSR -e 64 -c 2 -a 0 -i 53 -k RTR
++ -t 9.739301481 -s 6 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR 
+- -t 9.739301481 -s 6 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+h -t 9.739301481 -s 6 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741089875 -s 5 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741089889 -s 1 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741089907 -s 7 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741089940 -s 0 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741090005 -s 3 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741090068 -s 4 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
+r -t 9.741090212 -s 2 -d -1 -p OLSR -e 128 -c 2 -a 0 -i 54 -k RTR
++ -t 9.927719482 -s 5 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR 
+- -t 9.927719482 -s 5 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+h -t 9.927719482 -s 5 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+r -t 9.929843876 -s 6 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+r -t 9.929843940 -s 2 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+r -t 9.929843986 -s 1 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+r -t 9.929844036 -s 0 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+r -t 9.929844205 -s 7 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
+r -t 9.929844271 -s 3 -d -1 -p OLSR -e 140 -c 2 -a 0 -i 55 -k RTR
